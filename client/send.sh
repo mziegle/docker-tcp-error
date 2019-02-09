@@ -1,0 +1,1 @@
+while true ; do echo "test"; sleep 0.5; done | nc netcat-server 1234

@@ -1,0 +1,10 @@
+version: '3'
+services:
+  netcat-client:
+    image: netcat-client:latest
+    links: 
+      - netcat-server
+  netcat-server:
+    image: netcat-server:latest
+    expose:
+      - "1234"
