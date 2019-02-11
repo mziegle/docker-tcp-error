@@ -31,6 +31,9 @@ docker-compose up
 
 ### Verify
 
+WARNING: Unfortunately this error occures not all the time. If you cannot observe the following then delete the old containers and
+the network bridge and try it again.
+
 Open Wireshark and inspect the created network bridge (`docker network ls`).
 Verify that there are many tcp errors (retransmissions, Dup ACK and so on).
 
