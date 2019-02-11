@@ -7,7 +7,7 @@
 
 ## Reproduction
 
-Build netcat-client image.
+### Build netcat-client image.
 
 ```
 cd client
